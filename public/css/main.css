@@ -40,7 +40,7 @@ ol.indicators li.active {
   width: 15px;
   height: 15px;
   margin-top : 5px;
-  margin-bottom : 5px;
+  margin-bottom : 15px;
   margin-left: 20%;
   border-radius: 50%;
   border: 0;
@@ -92,7 +92,8 @@ ol.indicators li.active {
 
 .menubar span {
     text-transform: uppercase;
-    margin-left: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
     cursor: pointer;
 }
 .menubar p {
@@ -100,9 +101,20 @@ ol.indicators li.active {
 }
 
 .menubar span.first {
-    margin-left: 0;
+    padding-left: 2px;
 }
 
+.select-description:hover {
+    border-bottom: 3px solid rgba(241, 201, 0, 0.6);
+}
+
+.select-details:hover {
+    border-bottom: 3px solid rgba(241, 201, 0, 0.6);
+}
+
+.select-comments:hover {
+    border-bottom: 3px solid rgba(241, 201, 0, 0.6);
+}
 
 .menubar span.active {
     color: #fff; 

@@ -15,3 +15,33 @@ $(".select-comments").click(function(){
     $(".details").css("display", "none");
     $(".comments").css("display", "block");
 })
+
+$(".left").click(function(){
+    $(".left").addClass("active");
+    $(".mid").removeClass("active");
+    $(".right").removeClass("active");
+    $(".img-left").addClass("active");
+    $(".img-mid").removeClass("active");
+    $(".img-right").removeClass("active");
+})
+
+$(".mid").click(function(){
+    $(".left").removeClass("active");
+    $(".mid").addClass("active");
+    $(".right").removeClass("active");
+    $(".img-left").removeClass("active");
+    $(".img-mid").addClass("active");
+    $(".img-right").removeClass("active");
+})
+
+$(".right").click(function(){
+    $(".left").removeClass("active");
+    $(".mid").removeClass("active");
+    $(".right").addClass("active");
+    $(".img-left").removeClass("active");
+    $(".img-mid").removeClass("active");
+    $(".img-right").addClass("active");
+})
+
+var description_length = $(".description").text().length;
+// ADD CODE LATER

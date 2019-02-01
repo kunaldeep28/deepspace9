@@ -40,24 +40,41 @@
 				<p>Tinner's House</p>
 			</div>
 			<div class="price">
-				<p>$420  <span class="rating"><img src="./public/images/icon1.png" alt=""><img src="./public/images/icon1.png" alt=""><img src="./public/images/icon1.png" alt=""><img src="./public/images/icon1.png" alt=""><img src="./public/images/icon2.png" alt=""></span></p>
+				<p>$<span id="price">420</span><span class="rating"><img src="./public/images/icon1.png" alt=""><img src="./public/images/icon1.png" alt=""><img src="./public/images/icon1.png" alt=""><img src="./public/images/icon1.png" alt=""><img src="./public/images/icon2.png" alt=""></span></p>
 			</div>
 			<div class="description menubar description-active">
 				<p><span class="active first select-description">Description</span><span class="select-details">Details</span><span class="select-comments">Comments</span></p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda voluptatum sapiente harum laborum quis hic eum consectetur, animi debitis quisquam, qui consequuntur laboriosam doloribus totam rem tempora provident iure quia.
+				<p id="description-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda voluptatum sapiente harum laborum quis hic eum consectetur, animi debitis quisquam, qui consequuntur laboriosam doloribus totam rem tempora provident iure quia.</p>
 				<!-- Put readmore function here -->
 			</div>
 			<div class="details menubar">
 				<p><span class="first select-description">Description</span><span class="active select-details">Details</span><span class="select-comments">Comments</span></p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda voluptatum sapiente harum laborum quis hic eum consectetur, animi debitis quisquam, qui consequuntur laboriosam doloribus totam rem tempora provident iure quia.
+				<p class="description-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda voluptatum sapiente harum laborum quis hic eum consectetur, animi debitis quisquam, qui consequuntur laboriosam doloribus totam rem tempora provident iure quia.</p>
 				<!-- Put readmore function here -->
 			</div>
 			<div class="comments menubar">
 				<p><span class="first select-description">Description</span><span class="select-details">Details</span><span class="active select-comments">Comments</span></p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda voluptatum sapiente harum laborum quis hic eum consectetur, animi debitis quisquam, qui consequuntur laboriosam doloribus totam rem tempora provident iure quia.
+				<p class="description-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda voluptatum sapiente harum laborum quis hic eum consectetur, animi debitis quisquam, qui consequuntur laboriosam doloribus totam rem tempora provident iure quia.</p>
 				<!-- Put readmore function here -->
 			</div>
 			<!-- Add color/quantity etc. -->
+			<div class="color">
+				<p>Color</p>
+				<div class="color-1"></div>
+			</div>
+			<div class="quantity">
+				<p>Quantity</p>
+				<div class="num-input">
+					<span class="minus">-</span><span class="number">1</span><span class="plus">+</span>
+				</div>
+			</div>
+			<div class="total-price">
+				<p>Total Price</p>
+				<div class="price-display">
+					<span class="dollar">$ </span><span class="total">0</span>
+				</div>
+			</div>
+
 			<div class="wishlist">
 				<button type="button" class="btn btn-primary">ADD TO WISHLIST</button>
 			</div>
@@ -72,6 +89,7 @@
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script type="text/javascript" src="./public/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="./public/js/main.js"></script>
 </body>

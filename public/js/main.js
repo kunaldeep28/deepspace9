@@ -45,3 +45,22 @@ $(".right").click(function(){
 
 var description_length = $(".description").text().length;
 // ADD CODE LATER
+
+var price = $("#price").text();
+var quantity = parseInt($(".number").text());
+$(".total").text(price*quantity);
+$(".minus").click(function(){
+    if(quantity>1){
+        quantity = quantity-1;
+        $(".number").text(quantity);
+        $(".total").text(price*quantity);
+    }
+})
+
+$(".plus").click(function(){
+    quantity = quantity + 1;
+    $(".number").text(quantity);
+    $(".total").text(price*quantity);
+})
+
+

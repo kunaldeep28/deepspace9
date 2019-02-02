@@ -208,3 +208,27 @@ ol.indicators li.active {
     margin: auto;
     width: 70%;
 }
+
+.menubar span.read-more-det,
+.menubar span.read-more-des,
+.menubar span.read-more-com, 
+.menubar span.para-lines-des, 
+.menubar span.para-lines-det,
+.menubar span.para-lines-com{
+    text-transform: none;
+    cursor: auto;
+}
+
+#read-more-des,
+#read-more-det,
+#read-more-com {
+    cursor: pointer;
+}
+
+.show-line {
+    display: inline;
+}
+
+.no-show-line {
+    display: none;
+}

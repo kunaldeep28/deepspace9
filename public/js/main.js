@@ -63,4 +63,23 @@ $(".plus").click(function(){
     $(".total").text(price*quantity);
 })
 
+$("#read-more-des").click(function(){
+    $(".read-more-des").removeClass("show-line");
+    $(".read-more-des").addClass("no-show-line");
+    $(".para-lines-des").removeClass("no-show-line");
+    $(".para-lines-des").addClass("show-line");
+})
 
+$("#read-more-det").click(function(){
+    $(".read-more-det").removeClass("show-line");
+    $(".read-more-det").addClass("no-show-line");
+    $(".para-lines-det").removeClass("no-show-line");
+    $(".para-lines-det").addClass("show-line");
+})
+
+$("#read-more-com").click(function(){
+    $(".read-more-com").removeClass("show-line");
+    $(".read-more-com").addClass("no-show-line");
+    $(".para-lines-com").removeClass("no-show-line");
+    $(".para-lines-com").addClass("show-line");
+})
